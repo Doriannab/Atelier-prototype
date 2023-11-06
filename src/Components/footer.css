@@ -1,0 +1,39 @@
+.footer{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(31, 31, 114);
+    height: 50vh;
+     top: 50%;
+}
+
+.foott{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot{
+    font-size: 22px;
+    font-weight: 300;
+    color: white;
+    padding: 3%;
+}
+
+.reuse{
+    border-radius: 20px;
+    color: rgb(51, 51, 173);
+    background-color: white;
+    border: none;
+    width: 150px;
+    height: 30px;
+    margin-top: 5%;
+}
+
+.poura{
+    font-size: 18px;
+    font-weight: 100;
+    width: 50%;
+    color: white;
+    margin-left: 25%;
+}

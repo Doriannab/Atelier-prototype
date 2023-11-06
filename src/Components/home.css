@@ -1,0 +1,189 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    width: 100%;
+    background-color: whitesmoke;
+    height: 100vh;
+}
+
+.ion{
+   position: relative;
+   width: 100%;
+   justify-content: space-between;
+   height: 100vh;
+
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   align-items: center;
+   padding: 70px 10% 0;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+
+}
+
+.home-content{
+    max-width:600px ;
+}
+
+.home-content h1 {
+    font-size: 35px;
+    font-weight: 200;
+    margin: 2px 0;
+    padding: 1rem;
+}
+
+.home-content p {
+    font-size: 16px;
+    padding: 2rem;
+}
+
+.rien{
+    border-radius: 20px;
+    border: none;
+     background-color: blue;
+    padding: 1.2rem;
+    color: cornsilk;
+    margin: 1rem;
+
+    &:hover{
+        background-color: deepskyblue;
+        color: black;
+        cursor: pointer;
+        transition: 1s ease-in-out;
+}}
+
+
+
+/* Home */
+
+.container{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.our{
+    font-weight: 350;
+    font-size: 33px;
+    padding: 2rem;
+}
+
+.who{
+    font-size: 18px;
+    font-weight: 100;
+}
+
+
+.homer{
+
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 1px;
+    grid-auto-rows: minmax(100px, auto);
+    width: 100%;
+    background-color: white;
+    height: 100vh;
+    text-align: center;
+    padding-top: 3%;
+
+}
+
+.vouse{
+    width: 100%;
+    height: 100vh;
+    color: rgb(96, 96, 167);
+    display: block;
+    text-align: center;
+    margin-left: 2rem;
+}
+
+
+.nouse{
+    width: 100%;
+    height: 100vh;
+    color: rgb(96, 96, 167);
+    display: block;
+    text-align: center;
+    margin-right: 1rem;
+    
+}
+
+.span{
+    font-size: 13px;
+    font-weight: 300;
+    text-align: left;
+    margin-right: 39%;
+    color: rgb(134, 134, 219);
+}
+
+.mien{
+    font-size: 16px;
+    font-weight: 300;
+    width: 65%;
+    text-align: left;
+    margin-left: 25%;
+    margin-top: 1rem;
+}
+
+.mienne{
+    font-size: 16px;
+    font-weight: 300;
+    width: 65%;
+    text-align: left;
+    margin-left: 25%;
+    margin-top: 1rem;
+}
+
+.rose{
+    text-align: center;
+    margin-right: 27%;
+    font-weight: 700;
+    margin-top: 2.5rem;
+}
+.roso{
+    text-align: center;
+    margin-right: 21%;
+    font-weight: 700;
+    margin-top: 2.5rem;
+}
+
+.rosso{
+    text-align: center;
+    margin-right: 18%;
+    font-weight: 700;
+    margin-top: 2.5rem;
+}
+
+.rossa{
+    text-align: center;
+    margin-right: 15%;
+    font-weight: 700;
+    margin-top: 2.5rem;
+}
+.rosa{
+    text-align: center;
+    margin-right: 30%;
+    font-weight: 700;
+    margin-top: 2.5rem;
+}
+
+.icon{
+    text-align: center;
+    margin-right: 15px;
+    color: rgb(14, 14, 120);   
+}
+
+
